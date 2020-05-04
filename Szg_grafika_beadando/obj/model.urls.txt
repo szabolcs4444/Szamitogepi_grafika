@@ -1,4 +1,4 @@
-https://github.com/szabolcs4444/Szamitogepi_grafika/blob/master/Szg_grafika_beadando/obj/dragon.obj
-https://github.com/szabolcs4444/Szamitogepi_grafika/blob/master/Szg_grafika_beadando/obj/ice.obj
-https://github.com/szabolcs4444/Szamitogepi_grafika/blob/master/Szg_grafika_beadando/obj/mountain.obj
-https://github.com/szabolcs4444/Szamitogepi_grafika/blob/master/Szg_grafika_beadando/obj/pinetree.obj
+https://raw.githubusercontent.com/szabolcs4444/Szamitogepi_grafika/master/Szg_grafika_beadando/obj/dragon.obj
+https://raw.githubusercontent.com/szabolcs4444/Szamitogepi_grafika/master/Szg_grafika_beadando/obj/ice.obj
+https://raw.githubusercontent.com/szabolcs4444/Szamitogepi_grafika/master/Szg_grafika_beadando/obj/mountain.obj
+https://raw.githubusercontent.com/szabolcs4444/Szamitogepi_grafika/master/Szg_grafika_beadando/obj/pinetree.obj
