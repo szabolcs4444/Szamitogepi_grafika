@@ -1,0 +1,5 @@
+https://github.com/szabolcs4444/Szamitogepi_grafika/blob/master/Szg_grafika_beadando/textures/dragon.png
+https://github.com/szabolcs4444/Szamitogepi_grafika/blob/master/Szg_grafika_beadando/textures/help.png
+https://github.com/szabolcs4444/Szamitogepi_grafika/blob/master/Szg_grafika_beadando/textures/ice.png
+https://github.com/szabolcs4444/Szamitogepi_grafika/blob/master/Szg_grafika_beadando/textures/mountain.png
+https://github.com/szabolcs4444/Szamitogepi_grafika/blob/master/Szg_grafika_beadando/textures/pinetree.jpg
