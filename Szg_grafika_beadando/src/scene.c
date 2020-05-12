@@ -149,9 +149,35 @@ void draw_scene(const Scene* scene)
 }
 
 void dragon_move(double time){
-	dragon_x=dragon_x-time/100;
-	dragon_y=dragon_y+time/100;
-	dragon_rotate=dragon_rotate+time*10;	
+	if(dragon_rotate<90){
+	dragon_x=dragon_x-time/100;	
+	dragon_y=dragon_y+time/7;
+	dragon_rotate=dragon_rotate+time*10;
+	
+	}
+	else if(dragon_rotate>90&&dragon_rotate<180){
+		dragon_x=dragon_x-time/100;	
+		dragon_y=dragon_y-time/10;
+		dragon_rotate=dragon_rotate+time*10;
+		
+		
+	}
+	else if(dragon_rotate>180&&dragon_rotate<270){
+	dragon_x=dragon_x-time/100;	
+	dragon_y=dragon_y+time/7;
+	dragon_rotate=dragon_rotate+time*10;
+	
+	}
+	
+	else if(dragon_rotate>270&&dragon_rotate<360){
+		dragon_x=dragon_x-time/100;	
+		dragon_y=dragon_y-time/10;
+		dragon_rotate=dragon_rotate+time*10;
+		
+		
+	}else{
+		dragon_rotate=0;
+	}
 }		
 
 void tree_move(double time){
