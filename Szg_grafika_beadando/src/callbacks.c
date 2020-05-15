@@ -72,22 +72,22 @@ void keyboard(unsigned char key, int x, int y)
 {
     switch (key) {
     case 'w':
-        set_camera_speed(&camera, 0.1);
+        set_camera_speed(&camera, 1);
         break;
     case 's':
-        set_camera_speed(&camera, -0.1);
+        set_camera_speed(&camera, -1);
         break;
     case 'a':
-        set_camera_side_speed(&camera, 0.1);
+        set_camera_side_speed(&camera, 1);
         break;
     case 'd':
-        set_camera_side_speed(&camera, -0.1);
+        set_camera_side_speed(&camera, -1);
         break;
     case 'q':
-        set_camera_z_speed(&camera, 0.1);
+        set_camera_z_speed(&camera, 1);
         break;
     case 'e':
-        set_camera_z_speed(&camera, -0.1);
+        set_camera_z_speed(&camera, -1);
         break;		
     case '+':
         update_lighting(&scene, +0.1);

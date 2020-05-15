@@ -14,12 +14,16 @@ typedef struct Scene
 	Model pine_tree2;
 	Model dragon;
 	Model ice;
+        Model sky;
     Material material;
     GLuint texture_mountain;
     GLuint texture_pinetree;
     GLuint texture_dragon;
     GLuint texture_ice;
+    GLuint texture_sky;
     GLuint help;
+    
+
 } Scene;
 
 /**

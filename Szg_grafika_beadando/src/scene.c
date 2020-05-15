@@ -35,6 +35,11 @@ void init_scene(Scene* scene)
 	
     load_model(&(scene->ice), "obj/ice.obj");
     scene->texture_ice = load_texture("textures/ice.png"); 
+	
+	load_model(&(scene->sky), "obj/ice.obj");
+    scene->texture_sky = load_texture("textures/sky.jpg");
+	
+	
 	scene->help = load_texture("textures/help.png"); 
 
     scene->material.ambient.red = 1.0;
@@ -124,6 +129,15 @@ void draw_scene(const Scene* scene)
 		
 		draw_model(&(scene->ice));
 	glPopMatrix();	
+	
+	glBindTexture(GL_TEXTURE_2D, scene->texture_sky);	
+	glPushMatrix();
+		glTranslatef(0,90,0);
+		
+		draw_model(&(scene->sky));
+	glPopMatrix();
+	
+	
 	
 	glBindTexture(GL_TEXTURE_2D, scene->texture_pinetree);
 	glPushMatrix();
